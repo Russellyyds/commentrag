@@ -1,0 +1,20 @@
+[run]
+source = .
+omit = 
+    */venv/*
+    */tests/*
+    setup.py
+    conftest.py
+    run_tests.py
+    data_preprocessing.py
+    setup_vector_db.py
+    embedding_cache.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    pass
+    raise ImportError

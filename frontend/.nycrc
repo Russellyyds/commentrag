@@ -1,0 +1,26 @@
+{
+  "all": true,
+  "include": [
+    "src/**/*.{js,jsx}"
+  ],
+  "exclude": [
+    "src/**/*.spec.{js,jsx}",
+    "src/**/*.test.{js,jsx}",
+    "src/**/*.cy.{js,jsx}",
+    "cypress/**/*",
+    "jest/**/*",
+    "src/reportWebVitals.js",
+    "src/index.js",
+    "src/setupTests.js",
+    "node_modules/**/*",
+    "src/animations/**/*",
+    "src/assets/**/*",
+    "src/components/particles/**/*",
+    "src/utils/**/*"
+  ],
+  "reporter": [
+    "lcov",
+    "text-summary"
+  ],
+  "check-coverage": false
+}

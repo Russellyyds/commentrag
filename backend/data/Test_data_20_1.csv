@@ -1,0 +1,21 @@
+Identification Number,Mode of attendance code,Type of attendance code,NESB indicator,Citizenship indicator,Study area,Course level,RawComment,TrainCategory
+1001,FT,INT,Y,D,Engineering,Undergraduate,"The lecturer was excellent and explained complex concepts clearly. I really enjoyed this course.",OK
+1002,FT,INT,N,D,Business,Undergraduate,"The professor ignored my emails three times and refused to give feedback on my assignment. Very disappointing service.",Complaint
+1003,PT,EXT,Y,I,Medicine,Postgraduate,"As a non-native English speaker, I found the technical terminology very difficult to understand. Please provide a glossary for future courses.",Language
+1004,FT,INT,N,D,Psychology,Undergraduate,"The course materials contain outdated stereotypes about mental health conditions. This is harmful to students with these conditions.",Mental Health
+1005,PT,EXT,Y,I,Computer Science,Postgraduate,"The examples only featured male programmers and the language assumes the reader is male. This is discouraging for female students.",Sexism
+1006,FT,INT,Y,D,Humanities,Undergraduate,"The assignment assumed everyone celebrates Christmas, which doesn't respect my cultural background as a Buddhist student.",Cultural
+1007,PT,INT,N,D,Law,Postgraduate,"All the website links in the course materials are broken. I can't access any of the required readings.",Appearance
+1008,FT,EXT,Y,I,Business,Undergraduate,"I contacted support about enrollment issues but they transferred me to three different departments. Nobody knew how to help me.",Wrong Staff
+1009,FT,INT,N,D,Science,Undergraduate,"The lab sessions were well-organized and the teaching assistant was knowledgeable and helpful. Great experience overall.",OK
+1010,PT,EXT,Y,I,Education,Postgraduate,"The administrative staff never processed my extension request despite multiple follow-ups. I'm very dissatisfied with this service.",Complaint
+1011,FT,INT,N,D,Languages,Undergraduate,"The audio recordings are very fast and use slang that international students wouldn't know. Please make them more accessible.",Language
+1012,PT,INT,Y,D,Social Work,Postgraduate,"The case studies about trauma could be triggering for students who have experienced similar situations. There should be warnings.",Mental Health
+1013,FT,EXT,N,I,Engineering,Undergraduate,"The professor kept referring to engineers as 'he' and 'him' throughout the course. This is outdated and exclusionary language.",Sexism
+1014,PT,INT,Y,D,Anthropology,Postgraduate,"The assessment assumes Western cultural perspectives and doesn't acknowledge Indigenous knowledge systems or viewpoints.",Cultural
+1015,FT,INT,N,I,Design,Undergraduate,"The learning platform has poor contrast and tiny text that makes it almost impossible to read for long periods.",Appearance
+1016,PT,EXT,Y,D,Health Sciences,Postgraduate,"I needed help with my clinical placement but was repeatedly directed to academic advisors who couldn't assist with placement issues.",Wrong Staff
+1017,FT,INT,N,D,Mathematics,Undergraduate,"The textbook has numerous errors in the diagrams which made learning the concepts much more difficult than necessary.",Appearance
+1018,PT,INT,Y,I,Business,Postgraduate,"During group discussions, my contributions were repeatedly ignored while male students' similar ideas were praised by the tutor.",Sexism
+1019,FT,EXT,N,D,Medicine,Undergraduate,"I have anxiety and the sudden pop quizzes without warning caused me severe stress. Please announce assessments in advance.",Mental Health
+1020,PT,INT,Y,I,Linguistics,Postgraduate,"The lecture was perfect and the material was presented at just the right pace with excellent examples and clear explanations.",OK

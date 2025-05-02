@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: comment-moderation-backend
+    volumes:
+      - ./backend/uploads:/app/uploads
+      - ./backend/chroma_db:/app/chroma_db
+      - ./backend/my_cache:/app/my_cache
+    ports:
+      - "8088:8088"
+    environment:
+      OPENAI_API_KEY: "${OPENAI_API_KEY}"
+      UPLOAD_DIR: "/app/uploads"
+      CACHE_TYPE: "redis"
+      REDIS_HOST: "redis"
+      REDIS_PORT: "6379"
+      REDIS_DB: "0"
+      REDIS_PASSWORD: "123456"
+      REDIS_PREFIX: "myapp:cache:"
+      CACHE_TTL_DAYS: "14"
+    restart: unless-stopped
+    depends_on:
+      - redis
+    
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: comment-moderation-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    environment:
+      REACT_APP_API_URL: "http://localhost:8088"
+    restart: unless-stopped
+  
+  redis:
+    image: redis:7-alpine
+    container_name: comment-moderation-redis
+    ports:
+      - "6380:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --requirepass 123456
+    restart: unless-stopped
+
+volumes:
+  redis_data:

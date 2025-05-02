@@ -1,0 +1,11 @@
+Identification Number,Mode of attendance code,Type of attendance code,NESB indicator,Citizenship indicator,Study area,Course level,RawComment,TrainCategory
+1001,FT,INT,Y,D,Engineering,Undergraduate,"The lecturer was excellent and explained complex concepts clearly. I really enjoyed this course.",OK
+1002,FT,INT,N,D,Business,Undergraduate,"The professor ignored my emails three times and refused to give feedback on my assignment. Very disappointing service.",Complaint
+1003,PT,EXT,Y,I,Medicine,Postgraduate,"As a non-native English speaker, I found the technical terminology very difficult to understand. Please provide a glossary for future courses.",Language
+1004,FT,INT,N,D,Psychology,Undergraduate,"The course materials contain outdated stereotypes about mental health conditions. This is harmful to students with these conditions.",Mental Health
+1005,PT,EXT,Y,I,Computer Science,Postgraduate,"The examples only featured male programmers and the language assumes the reader is male. This is discouraging for female students.",Sexism
+1006,FT,INT,Y,D,Humanities,Undergraduate,"The assignment assumed everyone celebrates Christmas, which doesn't respect my cultural background as a Buddhist student.",Cultural
+1007,PT,INT,N,D,Law,Postgraduate,"All the website links in the course materials are broken. I can't access any of the required readings.",Appearance
+1008,FT,EXT,Y,I,Business,Undergraduate,"I contacted support about enrollment issues but they transferred me to three different departments. Nobody knew how to help me.",Wrong Staff
+1009,FT,INT,N,D,Science,Undergraduate,"The lab sessions were well-organized and the teaching assistant was knowledgeable and helpful. Great experience overall.",OK
+1010,PT,EXT,Y,I,Education,Postgraduate,"The administrative staff never processed my extension request despite multiple follow-ups. I'm very dissatisfied with this service.",Complaint

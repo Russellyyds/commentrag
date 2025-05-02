@@ -1,0 +1,6 @@
+xwuploads.DS_Store
+uploads
+backend/__pycache__.DS_Store
+frontend/.nyc_output
+backend/.pytest_cache
+.env

@@ -1,0 +1,5 @@
+Identification Number,Mode of attendance code,Type of attendance code,NESB indicator,Citizenship indicator,Study area,Course level,RawComment,TrainCategory
+1011,FT,INT,N,D,Engineering,Undergraduate,,OK
+1012,PT,EXT,Y,I,Medicine,Postgraduate,   ,OK
+1013,FT,INT,N,D,Business,Undergraduate,123456,OK
+1014,PT,EXT,Y,I,Psychology,Postgraduate,!!!??,OK

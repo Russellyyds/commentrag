@@ -1,0 +1,5 @@
+venv
+uploads
+db
+__pycache__
+app.log
