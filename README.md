@@ -299,8 +299,8 @@ Potential areas for extension:
 ## 📞 Support and Contact
 
 For issues, questions, or contributions:
-- **Project Manager**: Xiaotong Zhang
-- **Technical Support**: Xuanzhi Liu
+- **Project Manager**: Hang Pan
+- **Technical Support**: Hang Pan
 
 ## 📄 License
 
